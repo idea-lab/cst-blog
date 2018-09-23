@@ -11,4 +11,4 @@ Date of Event: Oct 12-14
 
 The Event itself is 36 hrs and to apply you need a [resume](https://www.thebalancecareers.com/high-school-resume-examples-and-writing-tips-2063554 "Resume Example")
 
-###Have Fun and Good Luck!
+### Have Fun and Good Luck!
