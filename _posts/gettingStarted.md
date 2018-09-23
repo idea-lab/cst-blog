@@ -1,7 +1,7 @@
 ---
 layout:     post
 title:      Required Software
-date:       2019-09-21
+date:       2018-09-21
 summary:    If you are bringing your own laptop, check out what you need!.
 categories: pixyll jekyll
 ---
