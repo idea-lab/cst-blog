@@ -6,10 +6,6 @@ summary:    Upcomming Hack-A-Thon in UMass Amherst.
 categories: hack-a-thon cst
 ---
 
-Note: As of right now, the website is down for maintanence.
-
->"I just confirmed. And the team is  doing maintenance on the website tonight. It will be up later tonight. If the problem persists, please don't hesitate to contact our head of tech bramirez@umass.edu. Sorry for the inconvenience"
-
 Register to [HackUMass](https://hackumass.com/ "HackUMass") before September 24.
 Date of Event: Oct 12-14
 
