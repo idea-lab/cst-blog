@@ -3,7 +3,7 @@ layout:     post
 title:      Required Software
 date:       2019-09-21
 summary:    If you are bringing your own laptop, check out what you need!.
-categories: reqs laptop
+categories: 
 ---
 
 If you want to bring your own laptops, we are all for it! But just check what you need.
