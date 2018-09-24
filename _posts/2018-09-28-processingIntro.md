@@ -48,3 +48,4 @@ Our input of (0, 0, 255) represents a blue color, since blue has the only and hi
 specified color. Finally we have the `rect` function to draw our rectangle. This function accepts 4 values: the x coordinate, the y coordinate, a width, and a height. **Important**: Processing does not use
 the standard cartesian coordinate system. Instead, lower values correspond to a position closer to the top-left, and higher values correspond to a position closer to the bottom-right. Our input was (100, 100, 200, 150),
 so we are drawing a rectangle at (100, 100) with a width of 200px, and a height of 150px.
+*Side Note*: I was describing parts of this code as 'functions'. For now, all you need to know is that a function is an instruction that executes multiple lines of code given some inputs.
