@@ -13,7 +13,7 @@ so programs with multiple files will be be located all in one folder.
 
 # Setting Up Your First Program
 When launching Processing, the file will either be empty or it will already have some code written. Either way we want to start with this basic format:
-'''processing
+```processing
 void setup()
 {
 }
@@ -21,4 +21,4 @@ void setup()
 void draw()
 {
 }
-'''
+```
