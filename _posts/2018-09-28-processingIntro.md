@@ -9,6 +9,7 @@ categories: cst
 ## The Processing Environment
 To learn the fundamentals of programming we will be using Processing, a scripting langauge which uses Java as its backbone. If you download Processing, you will download both the required environment for Processing and an editor,
 so you will not need to install a seperate editor/IDE (Integrated Development Environment).
+
 Processing uses files called 'sketches' that use save to a directory called your 'sketchbook'. Each program rquires its own folder, 
 so programs with multiple files will be be located all in one folder.
 
