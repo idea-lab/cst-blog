@@ -31,7 +31,6 @@ The syntax for Processing is similar to many other languages, but if you have ne
 *Using Processing functions, or tools, requires entering the tool keyword followed by open parentheses, our inputs, then closed parentheses. It should look like this: `tool(myInput);'
 As we learn more, there will be more syntax rules to learn, but for now that is all you need to know.
 
-
 ## A Simple Program
 We are going write a simple program that draws a red rectangle over a blue background. Our setup should look like this:
 ```processing
@@ -51,10 +50,13 @@ void draw()
 ```
 The three parts to drawing our rectangle are setting the background color, setting the rectange color, and drawing the rectangle with a specified size at specified coordinates.
 The `background` function accepts three comma seperated values for the background color in the format R,G,B (Red, Green, Blue). Each RGB value is limited to the range 0-255. 
-Our input of (0, 0, 255) represents a blue color, since blue has the only and highest value. The `fill` function also uses the RGB format as an input, but this function tells our program to fill the next shape with the 
-specified color. Finally we have the `rect` function to draw our rectangle. This function accepts 4 values: the x coordinate, the y coordinate, a width, and a height. **Important**: Processing does not use
-the standard cartesian coordinate system. Instead, lower values correspond to a position closer to the top-left, and higher values correspond to a position closer to the bottom-right. Our input was (100, 100, 200, 150),
+Our input of (0, 0, 255) represents a blue color, since blue has the only and highest value.
+The `fill` function also uses the RGB format as an input, but this function tells our program to fill the next shape with the specified color.
+Finally we have the `rect` function to draw our rectangle. This function accepts 4 values: the x coordinate, the y coordinate, a width, and a height. 
+**Important**: Processing does not use the standard cartesian coordinate system. Instead, lower values correspond to a position closer to the top-left, and higher values correspond to a position closer to the bottom-right. Our input was (100, 100, 200, 150),
 so we are drawing a rectangle at (100, 100) with a width of 200px, and a height of 150px.
+*Side Note*: `background`, `fill`, and `rect` are pieces fo code called functions. Functions are pieces of code that take inputs and use them to execute multiple lines of other code.
+We will see that using these will help us write clean code and prevent unneccesary work.
 
 
 
