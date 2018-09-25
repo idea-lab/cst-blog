@@ -8,7 +8,8 @@ categories: cst
 
 ## The Processing Environment
 To learn the fundamentals of programming we will be using Processing, a scripting langauge which uses Java as its backbone. If you download Processing, you will download both the required environment for Processing and an editor,
-so you will not need to install a seperate editor/IDE (Integrated Development Environment). Processing uses files called 'sketches' that use save to a directory called your 'sketchbook'. Each program rquires its own folder, 
+so you will not need to install a seperate editor/IDE (Integrated Development Environment).
+Processing uses files called 'sketches' that use save to a directory called your 'sketchbook'. Each program rquires its own folder, 
 so programs with multiple files will be be located all in one folder.
 
 ## Setting Up Your First Program
@@ -74,5 +75,20 @@ We will see that using these will help us write clean code and prevent unneccesa
 size(width, height)
 ```
 Located in `void setup()`, changes window size given new dimensions in pixels
+
+```processing
+background(red, green, blue)
+```
+Changes background color given values in RGB format with each value in the range 0-255
+
+```processing
+fill(red, green, blue)
+```
+Sets color of next shape given values in RGB format
+
+```processing
+rect(x, y, width, height)
+```
+Draws rectangle given coordinates and dimensions. Coordinates adhere to Processing's top-left to bottom-right system
 
 
