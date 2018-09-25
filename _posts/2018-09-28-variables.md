@@ -37,5 +37,13 @@ adding up the 'active' powers will get us the decimal (base-10) equivilent.
 
 #### Converting Decimals to Binary
 The general method to convert decimal to binary is to find the greatest power of two that is less than or equal to the number, subtract it, and repeat, marking down which powers work. 
+
 For example, the number 89 fits 64, or 2^6, and 89 - 64 is 25. 25 fits 16, or 2^4, and 25 - 16 is 9. 9 fits 8, or 2^3, and 9 - 8 is 1. Finally 1 fits 1, or 2^0, and 1 - 1 is 0. 
+
 Looking at the powers, we have 6, 4, 3, and 0, so, from right to left, we know positions 1, 4, 5, and 7 are active. In binary notation: 1011001.
+
+## The Number Primitives
+Numbers can be expressed with 4 different primitives: `int`, `float`, `double`, and `long`. These primitives vary in memory size and interpretation. 
+
+`int` is short for **integer**, and holds numbers from the integer set (positive and negative values with no fractions or decimals). Integers in Processing can hold 4 bytes of information, or 32 bits. 
+However, integers store both positive and negative values, so the range of values is -2,147,483,648 to 2,147,483,647 (note that 0 is considered positive). 
