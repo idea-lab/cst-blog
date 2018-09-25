@@ -29,7 +29,7 @@ so it runs multiple times each second. Here, data can be changed over time based
 ## Processing Syntax
 The syntax for Processing is similar to many other languages, but if you have never programmed before, it may look weird. Here are some syntax rules to start with:
 * A line of code ends with a semi-colon, similar to how sentences end with periods
-* Using Processing functions, or tools, requires entering the tool keyword followed by open parentheses, our inputs, then closed parentheses. It should look like this: `tool(myInput);'
+* Using Processing functions, or tools, requires entering the tool keyword followed by open parentheses, our inputs, then closed parentheses. It should look like this: `tool(myInput);`
 As we learn more, there will be more syntax rules to learn, but for now that is all you need to know.
 
 ## A Simple Program
