@@ -27,8 +27,8 @@ so it runs multiple times each second. Here, data can be changed over time based
 
 ## Processing Syntax
 The syntax for Processing is similar to many other languages, but if you have never programmed before, it may look weird. Here are some syntax rules to start with:
-*A line of code ends with a semi-colon, similar to how sentences end with periods
-*Using Processing functions, or tools, requires entering the tool keyword followed by open parentheses, our inputs, then closed parentheses. It should look like this: `tool(myInput);'
+* A line of code ends with a semi-colon, similar to how sentences end with periods
+* Using Processing functions, or tools, requires entering the tool keyword followed by open parentheses, our inputs, then closed parentheses. It should look like this: `tool(myInput);'
 As we learn more, there will be more syntax rules to learn, but for now that is all you need to know.
 
 ## A Simple Program
@@ -62,5 +62,17 @@ so we are drawing a rectangle at (100, 100) with a width of 200px, and a height 
 *Side Note*: `background`, `fill`, and `rect` are pieces fo code called functions. Functions are pieces of code that take inputs and use them to execute multiple lines of other code.
 We will see that using these will help us write clean code and prevent unneccesary work.
 
+## In Review
+#### General
+* Processing comes with both an environment and editor for us to use
+* All Processing programs have two parts: `void setup(){}` and `void draw(){}`
+* `void setup()` contains code that is executed only once while `void draw()` executes code repeatedly on a loop
+* Processing code follows the syntax of most languages, e.g. ending lines with semi-colons and calling functions like this: `function(input);`
+
+#### New Tools
+* Changing the window size is done in `void setup()` and is used like this `size(winWidth, winHeight);`
+* Changing the background color is done in `void draw()` and is used like this `background(red, green, blue);` with inputs ranging from 0 to 255
+* Changing the color of the next shape is done before a call to draw like `rect()` and is used like this: `fill(red, green, blue)`
+* Drawing a rectangle is done in `void draw()` and is used like this: `rect(xPos, yPos, width, height)` with Processing's top-left to bottom-right coordinate system
 
 
