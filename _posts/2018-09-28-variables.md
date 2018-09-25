@@ -28,5 +28,9 @@ The simplest unit of memory in a computer is the byte: a collection of 8 bits, w
 
 #### Converting Decimals to Binary
 The number 678 can be thought of as 8 ones, 7 tens, and 6 hundreds. This because decimal numbers use base-10, or powers of 10 to express numbers. So 678 can be written as (8 * 10^0) + (7 * 10^1) + (6 * 10^2).
-Binary is base-2, so numbers are written as a sum of powers of 2. Take the number 13. 13 can be thought of as 1 one, 1 four, and 1 eight, or (1 * 2^0) + (1 * 2^2) + (1 * 2^3). If you look at the exponents used, you can 
-organize the sum like this: 1101. From right to left, there are values at positions 1, 3, and 4, or exponents 0, 2, and 3.
+
+Binary is base-2, so numbers are written as a sum of powers of 2. Take the number 13. 13 can be thought of as 1 one, 1 four, and 1 eight, or (1 * 2^0) + (1 * 2^2) + (1 * 2^3).
+
+If you look at the exponents used, you can 
+organize the sum like this: 1101. From right to left, there are values at positions 1, 3, and 4, or exponents 0, 2, and 3. In general, binary can be thought of as a series of powers of two that are 'active' or 'inactive', and 
+adding up the 'active' powers will get us the decimal (base-10) equivilent. 
