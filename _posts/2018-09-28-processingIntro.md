@@ -25,12 +25,19 @@ void draw()
 A Processing program has two parts as seen above: a 'setup' part and a 'draw' part. The 'setup' part is only executed once, so most of your initializations will go there. The 'draw' part is executed as a loop,
 so it runs multiple times each second. Here, data can be changed over time based on different conditions, and all drawing code should be placed here.
 
+## Processing Syntax
+The syntax for Processing is similar to many other languages, but if you have never programmed before, it may look weird. Here are some syntax rules to start with:
+*A line of code ends with a semi-colon, similar to how sentences end with periods
+*Using Processing functions, or tools, requires entering the tool keyword followed by open parentheses, our inputs, then closed parentheses. It should look like this: `tool(myInput);'
+As we learn more, there will be more syntax rules to learn, but for now that is all you need to know.
+
+
 ## A Simple Program
 We are going write a simple program that draws a red rectangle over a blue background. Our setup should look like this:
 ```processing
 void setup()
 {
-	size(800, 600)
+	size(800, 600);
 }
 ```
 Nothing fancy there, just changing the window size to 800px by 600px. Next is the code for drawing:
@@ -48,4 +55,6 @@ Our input of (0, 0, 255) represents a blue color, since blue has the only and hi
 specified color. Finally we have the `rect` function to draw our rectangle. This function accepts 4 values: the x coordinate, the y coordinate, a width, and a height. **Important**: Processing does not use
 the standard cartesian coordinate system. Instead, lower values correspond to a position closer to the top-left, and higher values correspond to a position closer to the bottom-right. Our input was (100, 100, 200, 150),
 so we are drawing a rectangle at (100, 100) with a width of 200px, and a height of 150px.
-*Side Note*: I was describing parts of this code as 'functions'. For now, all you need to know is that a function is an instruction that executes multiple lines of code given some inputs.
+
+
+
