@@ -103,4 +103,6 @@ rect(x, y, width, height)
 ```
 Draws rectangle given coordinates and dimensions. Coordinates adhere to Processing's top-left to bottom-right system
 
+[Here is a link to the full Processing reference](https://processing.org/reference/)
+
 
