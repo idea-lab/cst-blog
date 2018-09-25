@@ -66,7 +66,18 @@ We will see that using these will help us write clean code and prevent unneccesa
 ## In Review
 #### General
 * Processing comes with both an environment and editor for us to use
-* All Processing programs have two parts: `void setup(){}` and `void draw(){}`
+* All Processing programs have two parts:
+```processing
+void setup()
+{
+}
+``` 
+and
+```processing
+void draw()
+{
+}
+```
 * `void setup()` contains code that is executed only once while `void draw()` executes code repeatedly on a loop
 * Processing code follows the syntax of most languages, e.g. ending lines with semi-colons and calling functions like this: `function(input);`
 
