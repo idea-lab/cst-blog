@@ -24,6 +24,7 @@ We will learn what values correspond to what primitives, but for now, we will mo
 
 ## A Lesson in Binary
 For many, binary is just 1s and 0s jumbled together as nonsense, but to computers, binary is their language. Electrical flow can be though of as either on or off, and these states are encoded as 1s and 0s in binary.
+
 The simplest unit of memory in a computer is the byte: a collection of 8 bits, where a bit is the flow state (1 or 0). All values that we use can be encoded as binary, and converting them depends on the value type.
 
 #### Understanding Binary Notation
