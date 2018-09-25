@@ -70,9 +70,9 @@ We will see that using these will help us write clean code and prevent unneccesa
 * Processing code follows the syntax of most languages, e.g. ending lines with semi-colons and calling functions like this: `function(input);`
 
 #### New Tools
-* Changing the window size is done in `void setup()` and is used like this `size(winWidth, winHeight);`
-* Changing the background color is done in `void draw()` and is used like this `background(red, green, blue);` with inputs ranging from 0 to 255
-* Changing the color of the next shape is done before a call to draw like `rect()` and is used like this: `fill(red, green, blue)`
-* Drawing a rectangle is done in `void draw()` and is used like this: `rect(xPos, yPos, width, height)` with Processing's top-left to bottom-right coordinate system
+```processing
+size(width, height)
+```
+Located in `void setup()`, changes window size given new dimensions in pixels
 
 
