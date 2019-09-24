@@ -33,3 +33,8 @@ The courses below are recommanded to teach basic concepts in coding. They are mo
 * [Eclipse](https://www.eclipse.org/downloads/ "Eclipse") or any Java IDE
 * [Atom](https://atom.io/ "Atom.io") or any TextEditor for HTML/JS/CSS *if you plan on working on Web Dev*
 * [Android Studios](https://developer.android.com/studio/ "Android Studios") or [Xcode](https://developer.apple.com/xcode/downloads/ "Xcode") *if you plan on doing App Dev*
+
+#### Go to a Hackathon!
+
+* [Hack NEHS](http://hacknehs.org/) - October 12th, 2019
+
